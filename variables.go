@@ -119,4 +119,13 @@ func variableConversion() {
  		- lower case first letter for package scope
 		- upper case first letter to export
 		- no private scope
+	Naming conventions
+ 		- Pascal or camelCase
+ 			- Capitalize acronyms (HTTP, URL etc)
+		- As short as reasonable
+ 			- longer names for longer lives
+	Type conversions
+ 		- destinationType(variable)
+		- use strconv package for strings
+		- go don't have implicit conversions
  */
