@@ -31,7 +31,7 @@ var (
 	season int = 11
 )
 
-func main() {
+func variables() {
 	declareVariable()
 	redeclareVariable()
 	namingVariables()
