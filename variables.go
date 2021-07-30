@@ -32,6 +32,7 @@ var (
 )
 
 func variables() {
+	fmt.Println("==============VARIABLES==============")
 	declareVariable()
 	redeclareVariable()
 	namingVariables()
